@@ -3,50 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script
       src="https://kit.fontawesome.com/b36ea12d2e.js"
       crossorigin="anonymous"
     ></script>
-    <title>Yousif's OnlineShop</title>
+    <title>Yousif's E-Commerce | Home</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo">
-          <h2>furniture</h2>
+        <div class="logo flex-center">
+          <a href="index.html"><h2>furniture</h2></a>
         </div>
         <ul class="nav-links-desktop">
-          <li><a href="">About us</a></li>
-          <li><a href="">Furniture</a></li>
-          <li><a href="">Sustainibility</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact us</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="./collection.html">Furniture</a></li>
+          <li><a href="#sustainability">Sustainability</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="#contact">Contact us</a></li>
         </ul>
-        <div class="nav-icons">
+        <div class="nav-icons flex-center">
           <i id="hamburger" class="fas fa-bars"></i>
           <ul class="links-mobile">
             <li><a href="">About us</a></li>
             <li><a href="">Furniture</a></li>
-            <li><a href="">Sustainibility</a></li>
+            <li><a href="">Sustainability</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">Contact us</a></li>
           </ul>
-          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="shoping-cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
           <a href=""><i class="fa-solid fa-user"></i></a>
         </div>
       </nav>
     </header>
     <main>
       <section class="hero">
-        <div class="hero-content">
+        <div class="hero-content flex-center-start column">
           <h1>Timeless and Sophisticated</h1>
           <h4>Where Luxury Meets Minimalism</h4>
-          <a href="">Explore the collection</a>
+          <a class="btn" href="./collection.html">Explore the collection</a>
         </div>
       </section>
-      <section class="showcase">
-        <div class="showcase-content">
+      <section class="showcase column flex-center">
+        <div class="showcase-content flex-center-start column">
           <h2>Our Collection</h2>
           <h5>Discover Our Signature Pieces</h5>
           <p>
@@ -54,63 +56,85 @@
             piece reflects the epitome of luxury and minimalist design. Browse
             through our featured collection to find your next statement piece.
           </p>
-          <a href="">Discover more</a>
+          <a class="btn" href="./collection.html">Discover more</a>
           <hr />
         </div>
         <div class="showcase-grid">
-          <div class="showcase-item">
-            <img src="./assets/img/sofa1.png" alt="" />
+          <div class="showcase-item flex-center-start column">
+            <img
+              src="./assets/img/product/sofas/sofa1.png"
+              alt="Lansing Leather Daybed"
+            />
             <h3>Lansing Leather Daybed</h3>
             <p>$1,999.00</p>
             <div class="showcase-item-btns">
-              <a href="">Explore</a>
-              <a href=""
-                ><i class="fa-solid fa-cart-shopping"></i> Add to cart</a
+              <a class="btn" href="./products/lansing-leather-daybed.html"
+                >Explore</a
               >
+              <a class="btn" href="">
+                <i class="fa-solid fa-cart-shopping"></i> Add to cart
+              </a>
             </div>
           </div>
-          <div class="showcase-item">
-            <img src="./assets/img/table1.png" alt="" />
-            <h3>Designer table</h3>
-            <p>$800</p>
+          <div class="showcase-item column">
+            <img
+              src="./assets/img/product/tables/table1.png"
+              alt="Kalmar Coffee Table"
+            />
+            <h3>Kalmar Coffee Table</h3>
+            <p>$2,599.00</p>
             <div class="showcase-item-btns">
-              <a href="">Explore</a>
-              <a href=""
-                ><i class="fa-solid fa-cart-shopping"></i> Add to cart</a
+              <a class="btn" href="./products/kalmar-coffee-table.html"
+                >Explore</a
               >
+              <a class="btn" href="">
+                <i class="fa-solid fa-cart-shopping"></i> Add to cart
+              </a>
             </div>
           </div>
-          <div class="showcase-item">
-            <img src="./assets/img/chair1.png" alt="" />
+          <div class="showcase-item column">
+            <img
+              src="./assets/img/product/chairs/chair1.png"
+              alt="Deacon Leather Swivel Recliner"
+            />
             <h3>Deacon Leather Swivel Recliner</h3>
             <p>$3,499.00</p>
             <div class="showcase-item-btns">
-              <a href="">Explore</a>
-              <a href=""
-                ><i class="fa-solid fa-cart-shopping"></i> Add to cart</a
+              <a
+                class="btn"
+                href="./products/deacon-leather-swivel-recliner.html"
+                >Explore</a
               >
+              <a class="btn" href="">
+                <i class="fa-solid fa-cart-shopping"></i> Add to cart
+              </a>
             </div>
           </div>
-          <div class="showcase-item">
-            <img src="./assets/img/bed1.png" alt="" />
+          <div class="showcase-item column">
+            <img
+              src="./assets/img/product/beds/bed1.png"
+              alt="Malone Canopy Bed"
+            />
             <h3>Malone Canopy Bed</h3>
             <p>$3,899.00</p>
             <div class="showcase-item-btns">
-              <a href="">Explore</a>
-              <a href=""
-                ><i class="fa-solid fa-cart-shopping"></i> Add to cart</a
+              <a class="btn" href="./products/malone-canopy-bed.html"
+                >Explore</a
               >
+              <a class="btn" href="">
+                <i class="fa-solid fa-cart-shopping"></i> Add to cart
+              </a>
             </div>
           </div>
         </div>
-        <a href="">Discover more</a>
+        <a class="btn" href="./collection.html">Discover more</a>
         <hr />
       </section>
-      <section class="about">
+      <section id="about" class="about flex-center column">
         <div class="about-img">
-          <img src="./assets/img/about.png" alt="" />
+          <img src="./assets/img/general/about.png" alt="About Us" />
         </div>
-        <div class="about-content">
+        <div class="about-content flex-center-start column">
           <h2>About Us</h2>
           <h5>Discover Our Story</h5>
           <p>
@@ -119,11 +143,11 @@
             elevate your living space and create a sense of luxury and comfort.
             Explore our collection to find the perfect piece for your home.
           </p>
-          <a href="">Learn more</a>
+          <a class="btn" href="./collection.html">Learn more</a>
         </div>
       </section>
-      <section class="srvice">
-        <div class="service-content">
+      <section id="service" class="service flex-center column">
+        <div class="service-content flex-center-start column">
           <h2>Our Services</h2>
           <h5>What We Offer</h5>
           <p>
@@ -133,28 +157,28 @@
             our services to find out how we can help you create the home of your
             dreams.
           </p>
-          <a href="">Learn more</a>
+          <a class="btn" href="">Learn more</a>
         </div>
         <div class="service-grid">
-          <div class="service-item">
+          <div class="service-item flex-center column">
             <i class="fa-solid fa-paint-roller"></i>
             <h3>Interior Design</h3>
             <p>Get expert advice on creating the perfect living space.</p>
           </div>
-          <div class="service-item">
+          <div class="service-item flex-center column">
             <i class="fa-solid fa-chair"></i>
             <h3>Custom Furniture</h3>
             <p>Create a one-of-a-kind piece that reflects your style.</p>
           </div>
-          <div class="service-item">
+          <div class="service-item flex-center column">
             <i class="fa-solid fa-truck"></i>
             <h3>Delivery & Installation</h3>
             <p>Get your furniture delivered and set up in your home.</p>
           </div>
         </div>
       </section>
-      <section class="newsletter">
-        <div class="newsletter-content">
+      <section id="newsletter" class="newsletter flex-center column">
+        <div class="newsletter-content flex-center-start column">
           <h2>Subscribe to Our Newsletter</h2>
           <h5>Stay Up to Date</h5>
           <p>
@@ -162,17 +186,24 @@
             promotions, and more. Stay in the loop with the latest news from our
             brand and be the first to know about our exclusive offers.
           </p>
-          <form action="">
-            <input type="email" placeholder="Enter your email" />
-            <button type="submit">Subscribe</button>
+          <form action="" class="form flex-center column">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="form-input"
+            />
+            <button class="btn" type="submit">Subscribe</button>
           </form>
         </div>
       </section>
-      <section class="sustainability">
+      <section id="sustainability" class="sustainability flex-center column">
         <div class="sustainability-img">
-          <img src="./assets/img/sustainability1.png" alt="" />
+          <img
+            src="./assets/img/general/sustainability1.png"
+            alt="Sustainability"
+          />
         </div>
-        <div class="sustainability-content">
+        <div class="sustainability-content flex-center-start column">
           <h2>Sustainability</h2>
           <h5>Our Commitment to the Environment</h5>
           <p>
@@ -182,14 +213,17 @@
             more about our commitment to sustainability and how we are working
             to reduce our impact on the environment.
           </p>
-          <a href="">Learn more</a>
+          <a class="btn" href="">Learn more</a>
         </div>
         <div class="sustainability-img">
-          <img src="./assets/img/sustainability2.png" alt="" />
+          <img
+            src="./assets/img/general/sustainability2.png"
+            alt="Sustainability"
+          />
         </div>
       </section>
-      <section class="contact">
-        <div class="contact-content">
+      <section id="contact" class="contact flex-center column">
+        <div class="contact-content flex-center-start column">
           <h2>Contact Us</h2>
           <h5>Get in Touch</h5>
           <p>
@@ -198,38 +232,42 @@
             to help you create the perfect living space and answer any questions
             you may have.
           </p>
-          <form action="">
+          <form action="" class="form flex-center column">
             <label for="name">Name</label>
             <input
               type="text"
               name="name"
               placeholder="Please enter your full name"
+              class="form-input"
             />
             <label for="email">Email</label>
             <input
               type="email"
               name="email"
               placeholder="Please enter your email"
+              class="form-input"
             />
             <label for="subject">Subject</label>
             <input
               type="text"
               name="subject"
               placeholder="Please enter the subject of your message"
+              class="form-input"
             />
             <label for="message">Message</label>
             <textarea
               name="message"
               placeholder="Please enter your message"
               rows="5"
+              class="form-input"
             ></textarea>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" class="btn form-input" />
           </form>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer-content">
+    <footer class="flex-center column">
+      <div class="footer-content flex-center column">
         <div class="footer-logo">
           <h2>furniture</h2>
         </div>
@@ -237,7 +275,7 @@
           <ul>
             <li><a href="">About us</a></li>
             <li><a href="">Furniture</a></li>
-            <li><a href="">Sustainibility</a></li>
+            <li><a href="">Sustainability</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">Contact us</a></li>
           </ul>
