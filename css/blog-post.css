@@ -1,0 +1,21 @@
+.author {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author h5, .author + h5 {
+    font-size: .8rem;
+}
+
+ol li {
+    margin: .5rem 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+}
